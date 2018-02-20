@@ -10,3 +10,7 @@ II. Follow instructions for installation
    C. Select "Just Me"
    D. Choose installation folder
    E. Set Anaconda as the default Python
+   F. (Optional) Install VS Code for use as your Python IDE
+   G. Finish
+
+III. Open Anaconda
