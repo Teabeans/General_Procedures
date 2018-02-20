@@ -16,3 +16,14 @@ VI. Activate/subscribe/schedule upgrade
 VII. Close Visual Studios
    A. Installer for scheduled extensions should open automatically
    B. Follow prompts to begin installation
+   C. Upon completion of install, reopen Visual Studio
+
+VIII. Login with your Git credentials
+   A. On the open/start menu, click on "Github"
+   B. Login
+   C. Select the repository to work on
+   D. Click 'Clone'
+   
+IX. To commit...
+   A. After saving your local work, right click on the file(s) to commit
+   B. Select 'commit'
