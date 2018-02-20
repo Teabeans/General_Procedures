@@ -7,4 +7,12 @@ II. Register for a GitHub account
 III. Acquire the GitHub extension for Visual Studio
    A. https://visualstudio.github.com/
 
-IV. 
+IV. Go to Tools and Settings -> Extensions
+
+V. Search for GitHub
+
+VI. Activate/subscribe/schedule upgrade
+
+VII. Close Visual Studios
+   A. Installer for scheduled extensions should open automatically
+   B. Follow prompts to begin installation
