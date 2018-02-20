@@ -1,0 +1,202 @@
+ 
+University of Washington Bothell 
+- Makerspace - 
+Lasercutter Operating Protocols
+ 
+I. LOGGING IN: Accessing the Makerspace computers
+  
+To login with your UW NetID: 
+   Click on the screen to bring up the login.
+   If necessary, click on “Switch User” in the lower left corner.
+
+You should see the following:
+
+   Enter your credentials in the format:
+      Username: <Student ID Name>@netid 
+      Password: <Your normal netID password> 
+ 
+II. PATH GENERATION: Create a cut file
+   Generating the part pathfile is beyond the scope of this instruction.
+   However, the path should be:
+      An Adobe Illustrator readable format.
+      Fit within a 24” x 12” bed.
+   Laser etch kerf == slightly less than 1/128” diameter with proper height
+   Laser cut kerf == ~1/32” diameter on a 0.120” thick plywood
+   1/128” line offset == double thick line
+   1/64” line offset == “white” (untouched) line
+
+III. PATH CONFIGURATION: Configure the path for proper export
+   Open Adobe Illustrator
+   Import your document by going to File => Import
+// TODO: <Insert photo here>
+
+   Verify that the artboard is 24” x 12” 
+
+   For Vector cutting, format the image as follows:
+      CUT LINES - RGB Red (255 : 0 : 0), stroke of 0.001 pt
+      ETCH LINES - Any other color or weight
+         // TODO: Verify
+
+   For Raster cutting, format the image as follows:
+	CUT - 
+	ETCH - 
+
+IV.	PATH OUTPUT: Transfer the path from Illustrator to the Lasercutter
+1 - To send the path to the lasercutter, select File => Print in Illustrator
+2 - Confirm that VLS 3.50 system is selected as print output
+3 - Confirm that orientations and image size are correct
+4 - If UCP is not already open, go to the UCP shortcut link on the desktop
+This opens the lasercutter driver. 
+5 - Confirm that the export was successful.
+	Red lines denote cuts
+	Blue lines denote etches
+ 
+V.	CUTTER CONFIGURATION: Configure the Lasercutter for print
+Apply the appropriate power settings for the cut operation.
+   Click ‘Settings’ button
+
+
+// TODO: <Insert Picture Here>
+
+   Use the lab-provided presets
+      OR...
+   Use manual power and speed settings
+ 
+Configure power and speed settings:
+
+// TODO: <Insert picture here> 
+
+   Open the power settings by clicking on “Settings”.
+   Navigate to the “Manual Control” tab.
+   Alter speed and power settings by line colors.
+   Click ‘Set’ to confirm a setting change.
+
+   Turn printer power on.
+      Use the power button in UCP driver.
+      OR...
+      Press the power button on the laser cutter.
+
+// TODO: <Insert picture here>
+
+Table V.1 - Experimental VECTOR cutting results
+Cardboard (C-Flute):
+   Minimum feature size: 1/16”
+   Kerf thickness      : 0.__ (???)
+   Etch:  20% power : 100% speed
+   Cut : 100% power :  15% speed
+
+Plywood (5mm / 0.19685”):
+   Minimum feature size: 0.020” (1-32” - 1/64”)
+   Kerf thickness      : 0.018” cut : 0.012” etch
+   Etch: 25% power  :  50% speed (Brown lines)
+         50% power  : 100% speed (Black lines, sharper, faster)
+   Cut : 100% power :   4% speed (Significant charring, incomplete cut)
+         100% power :   5% speed (Recommended, complete cut, no char) 
+
+Plywood (3mm / 0.155”):
+   Etch:  35% power : 100% speed (Brown line, shallow depth, fine)
+          50% power : 100% speed (Black lines, sharper, faster)
+   Cut : 100% power :  10% speed (Inconsistent complete cut, feather connections)
+         100% power :   9% speed (Consistent through-cut)
+
+Table V.2 - Experimental RASTER cutting results
+   Cardboard (C-Flute):
+      Etch –  40% power :  80% speed 
+      Cut  -        N/A :        N/A
+
+
+   Acrylic:
+      Etch –  40% power :  80% speed 
+      Cut  -        N/A :        N/A
+      Note: Do not cut acrylic on the lasercutter; it will burn.
+
+   Wood (Balsa):
+      Etch   -  --% power :  --% speed
+      Cut    -  --% power :  --% speed
+      Raster - 100% power :  --% speed
+
+Zeroing the cutter:
+   (X, Y):
+   To zero/home/tare the cutter, click the ‘HomeXY’ button
+
+   (Z):
+   Use the up and down arrow buttons on the lasercutter to raise and lower the bed
+   Note: For bowed/curved substrates that don't lay perfectly flat, add slop to height.
+   
+   OR
+   
+   Measure thickness of material.
+   Enter information in the UDP cutter interface (TODO)
+
+   OR
+
+   Standardize gap using a known-thickness spacer
+   (ie. C-Flute cardboard
+
+   CAUTION! Excessively bowed materials may collide with cutterhead.
+
+   TIP: Flatness of cutting stock can be improved by storing sheets horizontally.
+   TIP: Flatness on the bed can be improved by using a piece not larger than necessary for the job on hand. If accuracy of the beam focus is important, it is recommended that parts be “rough cut” to appropriately sized blanks before final etch/cut operations.
+
+
+Aiming the cutter:
+   To check the location of the print on a substrate,
+   click the “Focus View” button and use it to target a point in the print job.
+
+   The cutter will aim at that point in the printjob
+   Note: You may open the lid to display the target laserdot on the bed
+ 
+Turn Filter / Ventilation on
+// TODO: <Insert Picture Here>
+
+
+   Push power button on filter 
+   Turn compressor on (pedal) 
+   Compressor activated by pedal 
+
+   Note: During lab closure hours, the compressor is on lockout.
+   Refrain from cutter use during this time. 
+ 
+
+V.	PRINT: Executing the print
+Before cutting, confirm the following:
+   Shop staff is present and has provided the OK on setup.
+   The compressor should be running.
+   The air filter is running.
+   The location of all emergency cutoffs.
+   The location of the nearest fire extinguisher.
+
+   Press ‘Print’
+
+During cutting: 
+  
+   CAUTION! - Laser operates at 630-680 nm wavelength (red to infrared)
+   DO NOT LOOK DIRECTLY AT THE LASER!
+   Cutting may be examined in-process by using the bridge as a shield.
+
+   Remain present near machine during cutting.
+   You are responsible for the safety of observers and onlookers!
+
+   Be mindful of changes in the sound of the machine.
+
+   When in doubt, terminate the printjob.
+
+After cutting:
+   Ensure that cutterhead has ceased movement.
+   Confirm that parts have cooled.
+   Certain materials may smolder after cutting is complete.
+
+   Remove parts from cutter bed.
+   Clean debris leaving a level bed for the next user.
+
+   Report any issues or maintenance needs to shop staff.
+   Report cutting results and/or update cut tables above.
+
+FAQ / Troubleshooting:
+   Q: The path is followed, but the laser does not turn on.
+   A: Contact staff to perform hard reset (unplug for 30 sec)
+
+   Q: I print from Illustrator, but no path appears.
+   A: Ensure that the path file you are cutting is definitely 255:0:0 (RGB) and 0.001 pt.
+
+   
