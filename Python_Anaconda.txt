@@ -1,0 +1,9 @@
+Purpose: To install the Python programming language
+         To install the Anaconda (Python and R distribution, plus package management)
+         
+I. Download the Anaconda installer
+   A. https://www.anaconda.com/download/
+
+II. Follow instructions for installation
+   A. https://conda.io/docs/user-guide/install/windows.html
+
