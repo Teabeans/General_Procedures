@@ -6,4 +6,7 @@ I. Download the Anaconda installer
 
 II. Follow instructions for installation
    A. https://conda.io/docs/user-guide/install/windows.html
-
+   B. Accept EULA
+   C. Select "Just Me"
+   D. Choose installation folder
+   E. Set Anaconda as the default Python
