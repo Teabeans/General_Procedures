@@ -1,0 +1,50 @@
+0. Instructions are for Linux Mint 18.3 "Sylvia" installation
+
+I. Acquire clean drives
+   A. See 'General_Procedures/Drive_Format.txt'
+   B. Standard hard drive for the computer
+   C. USB drive (TODO: Capacity?) for the installation package
+
+II. Download Mint installer from https://linuxmint.com/
+   A. May be performed on the computer being transferred to Linux
+      1. Installer will be ported to a USB drive
+   B. Select edition:
+      1. Cinnamon - Flagship distribution, runs Gnome3
+      2. Mate - (Pronounced 'mahtay') Continuation of prior Gnome2 desktop
+      3. Xfce - Lightweight distribution, processor and resource minimized
+      4. KDE - Most configuration option
+
+III. Verify your ISO image
+   A. Necessary as a guard against spoofing / man-in-the-middle attacks (TODO: Verify)
+   B. Functions by generating a hash off the ISO file and comparing against an expected hash
+   C. The expected SHA256 sum:
+   
+2026b8901f86f4711e2aaa35f5515407eebb7fb2c3cdd0359ffb6f6d0a368b9d *linuxmint-18.3-cinnamon-32bit.iso
+ecebdf9ac4697b6c2d7feffd1bc5430641bca67c7df122fa2914824dc8844b3a *linuxmint-18.3-cinnamon-64bit.iso
+535dbb3ef4f7db6b9584d5093d6ae05a861f7f6e03fee487c76189bc5248de20 *linuxmint-18.3-kde-32bit.iso
+f110cfce59853eec018a2be0f23565d46b67848194e99f91ed701ea9be672420 *linuxmint-18.3-kde-64bit.iso
+428d47c5ce54e949b0ba656a2c387d4536b9e0530bcc840784b456190411f11c *linuxmint-18.3-mate-32bit.iso
+1ec518ec70d76d9634e22bb9e083546d812f869878a3262fc7ae47ecc5b23e40 *linuxmint-18.3-mate-64bit.iso
+ab75288d9ba54cd7f614a2aadae22df2157e297cc45af46ec146086864e02f08 *linuxmint-18.3-xfce-32bit.iso
+a78be201c766133d35a39b0555e00503f5fe47ff2bb17d6e27953397f44dcf09 *linuxmint-18.3-xfce-64bit.iso
+
+   D. The Linux team GPG
+   
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAABCgAGBQJaMVJPAAoJEDAPhGuiW64JzIIP/jbTQZPvbT/hhfE3xPgJfEOi
+AFUA//rq2Dw5nQk1QaskG/QC1+ZH9o81trd7bHwPkWpkKZG1GpJqSQm/l6hvk6mR
+sAY260PyYDR+abK3YVc5ElWaC04dNl/rMdaOgbx5wqE7YIlctADCMi+hiRGQT/LO
+xyNBOO7QfnueKPrynGLpUfVGLRssUVAMS2tDhAGcg2lCVq+jrNUKcYd3AWUyLaNV
+ndPZPJgyVtIfrcIG+kul0Il4/sfwGu9hsr937/CC8X7FoFMJOt7WFwpiT3f91UY/
+/xtrZL8f4etQVqc5N/ifvUcej+y6GAZYbBKwF3oWSLBk3Hyjd3QmTyVtxSlJ+Hiy
+oGvQd8IYRRDT9AqCq3nH6HMPM9bnBHJ9R79HjXfePOCzpqF2tzUlIo8IgY0qxFEA
+pxwNt3lxACJCsJSzOeyG7GAXWNvbmPQN+s2JfLvQhUMe7MZ4Nld1bL5bmK+YnO3u
+7WUjTSPJm6PpaxIloprGE0zImU8mBFLn0vMMgmpVBkovCsJN7ZHXbT2dZ/tKch0z
+R+PDhNVHw+Yrz+Fwttb5jG/EHEEAcz1qCaUOwt1c2sjtUmS/5R7PgclMqRikcam1
+Vutme0IOE1hKUeimRJnWAZOtwgTvyoA42mE9cY+C94HOT74wLBd86zySnVPS8Kmq
+gOPjCqzP0M6gpFqsaC1q
+=tvuX
+-----END PGP SIGNATURE-----
+
