@@ -21,5 +21,9 @@ IV. If using VSCode as your IDE
    C. Install
    D. Restart
    E. Create a PAT (Personal Access Token) - aka. login credentials
-      1. Verify email address
-      2. 
+      1. On GitHub - Verify email address
+      2. On GitHub - Go to "Settings" (upper right, profile picture)
+      3. On GitHub - On left sidebar => Developer Settings => Personal Access Tokens
+      4. "Generate New Access Token"
+      5. Enter password to confirm
+      6. Complete prompts
