@@ -14,3 +14,12 @@ II. Follow instructions for installation
    G. Finish
 
 III. Open Anaconda
+
+IV. If using VSCode as your IDE
+   A. Open the Extensions manager (left side of screen)
+   B. Search for and locate the GitHub manager
+   C. Install
+   D. Restart
+   E. Create a PAT (Personal Access Token) - aka. login credentials
+      1. Verify email address
+      2. 
