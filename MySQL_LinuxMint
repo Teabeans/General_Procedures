@@ -1,3 +1,5 @@
+0. Note, if installing Percona, do *not* install MySQL
+
 I. Download the MySQL APT repository
    A. APT repository is for Debian systems (of which Mint is an offshoot)
    B. Other repositories exist for other operating systems
@@ -23,3 +25,4 @@ VI. For Percona:
       1. $ tar xvf <filename>.tar
       2. TODO: (xvf) meaning?
       3. $ sudo dpkg -i *.deb
+
