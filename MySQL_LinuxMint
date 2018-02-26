@@ -1,0 +1,25 @@
+I. Download the MySQL APT repository
+   A. APT repository is for Debian systems (of which Mint is an offshoot)
+   B. Other repositories exist for other operating systems
+   C. https://dev.mysql.com/downloads/repo/apt/
+
+II. Install/run the download package by navigating to the containing folder and running:
+   A. $ sudo dpkg -i mysql-apt-config 0.8.9-1_all.deb
+  
+III. Select the most appropriate Debian release (9)
+   A. After install, run the command:
+   B. $ sudo apt-get update
+   
+IV. To confirm installation:
+   A. $ mysql -V
+   
+V. Alternatively, download either:
+   A. Wither Percona Server for MySQL (Ubuntu 16.04 - Xenial Xerus)
+   B. Mariadb
+
+VI. For Percona:
+   A. Download the appropriate .tar for the operating environment
+   B. Run:
+      1. $ tar xvf <filename>.tar
+      2. TODO: (xvf) meaning?
+      3. $ sudo dpkg -i *.deb
