@@ -1,1 +1,7 @@
-
+I) In the Anaconda console (VSCode)
+   A) Install the (Paho MQTT client) class
+      1) 'Paho' is a community project
+      2) 'MQTT' is a communication protocol
+         a) https://en.wikipedia.org/wiki/MQTT
+         b) 
+   B) 
