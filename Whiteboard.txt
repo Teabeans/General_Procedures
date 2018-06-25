@@ -19,8 +19,16 @@
 // File Description
 //-----------------------------------------------------------------------------|
 //
-// General workflow for whiteboarding problem solving
+// General workflow for whiteboard problem solving
+// Differs from general problem solving with regards to:
+//    1. Space Management - Board layout matters for you and your audience
+//    2. Time Limitations - Backtracking should be strongly avoided
 //
+
+Prior to the whiteboard:
+1. Learn to write quickly and legibly on a vertical surface
+2. Do utilize strategies you may not have on the computer like symbols, colors, font size, subscripts
+3. Establish recognizable abbreviations for common or recurring solution elements
 
 0. LISTEN AND UNDERSTAND
   |--Ask clarifying questions
@@ -28,10 +36,68 @@
 
 1. DEFINE PROBLEM DOMAIN
   |--Establish bounds on what the problem does and does not address
-     |--Be aware that this is subject to change after initial problem completion
-     |--If you are solving for a problem ahead of the current one, stipulate as much
+  |  |--Be aware that this is subject to change after initial problem completion
+  |  |--If you are solving for a problem ahead of the current one, stipulate as much
+  |
   |--Define known information
+  |  |--What information are we provided?
+  |  |--May include more information than needed.
+  |  |--Should not include information inferred.
+  |
   |--Define desired information
+  |  |--What information are we seeking?
+  |
   |--Define working variables
+     |--What variables do you require to move from known-information to desired-information?
+     |--This will likely not be completed until after pseudo-code, but you should block out area on the board for these
 
-2. 
+2. DRAW AND DIAGRAM
+  |--Draw the problem as you understand it
+
+3. CHECKPOINT
+  |--Verify with the interviewer that your understanding of the problem reflects their description
+  |--Adjust problem domain and diagrams as needed
+
+4. GENERATE EXAMPLES AND EDGE CASES
+  |--If applicable, create several additional problem examples
+  |--These should attempt to reflect edge data/use cases
+
+5. BRUTE FORCE / NAIVE SOLUTION
+  |--With disregard for time complexity, establish a solution
+  |--Clearly declare and label this solution as the naive solution
+
+6. CHECKPOINT
+  |--Verify with the interviewer that this solution would arrive at the desired output
+  |--All steps above establish your baseline problem conditions
+     |--These should probably be entered to one column of the board
+
+7. OPTIMIZE APPROACH
+  |--Attempt to improve the time complexity of your solution
+
+8. CHECKPOINT
+  |--Declare that your approach is as optimal as you can make it, and check in with the interviewer
+
+9. PSEUDOCODE
+  |--Pseudocode should be written either as:
+  |  |--Comments - Based upon the major steps of your solution, either:
+  |  |  |--Gap each step (these comments become the framework for your full solution)
+  |  |  |--Expand steps to the next column of the board
+  |  |--Helper Functions - A series of discrete functions that will perform each step
+  |     |--Leave as many lines as you can between functions in case additional helper functions are needed
+  |--Keep pseudocode broad-brush and in plain English:
+  |  |--"For every element in this set" instead of "For loop from 0 to n"
+  |  |--"While we have elements to process" instead of "While hasElements == true"
+  |  |--"sort(elements)" instead of "mergeSort(elements)" or "quickSort(elements)"
+  |--Complete variable tables
+
+10. CHECKPOINT
+  |--Test your pseudocode with one or more of your test cases
+  |--Track elements in the variable table as you proceed to identify potential bugs
+  |--Confirm with the interviewer that this looks agreeable
+
+11. (OPTIONAL) DIAGRAM SOLUTION
+  |--If you believe it to be helpful, generate a graphical representation of your solution/program
+
+12. CODE
+  |--Begin writing your code
+  |--Be aware that it may not look, feel, or be structured like you would normally code
