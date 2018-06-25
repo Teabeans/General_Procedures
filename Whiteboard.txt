@@ -73,6 +73,7 @@ Prior to the whiteboard:
 
 7. OPTIMIZE APPROACH
   |--Attempt to improve the time complexity of your solution
+  |--Note space complexity if applicable
 
 8. CHECKPOINT
   |--Declare that your approach is as optimal as you can make it, and check in with the interviewer
