@@ -82,7 +82,7 @@ Prior to the whiteboard:
   |--Pseudocode should be written either as:
   |  |--Comments - Based upon the major steps of your solution, either:
   |  |  |--Gap each step (these comments become the framework for your full solution)
-  |  |  |--Expand steps to the next column of the board
+  |  |  |--Or expand steps to the next column of the board
   |  |--Helper Functions - A series of discrete functions that will perform each step
   |     |--Leave as many lines as you can between functions in case additional helper functions are needed
   |--Keep pseudocode broad-brush and in plain English:
