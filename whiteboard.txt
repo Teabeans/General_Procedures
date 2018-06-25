@@ -1,0 +1,37 @@
+//-------|---------|---------|---------|---------|---------|---------|---------|
+//
+// Whiteboard Problem Workflow
+// whiteboard.txt
+//
+//-------|---------|---------|---------|---------|---------|---------|---------|
+
+//-----------------------------------------------------------------------------|
+// Authorship
+//-----------------------------------------------------------------------------|
+//
+// Tim Lum
+// twhlum@gmail.com
+// Created:  2018.06.24
+// Modified: 2018.06.25
+//
+
+//-----------------------------------------------------------------------------|
+// File Description
+//-----------------------------------------------------------------------------|
+//
+// General workflow for whiteboarding problem solving
+//
+
+0. LISTEN AND UNDERSTAND
+  |--Ask clarifying questions
+  |--Perform a readback to confirm that your understanding is correct/agreeable
+
+1. DEFINE PROBLEM DOMAIN
+  |--Establish bounds on what the problem does and does not address
+     |--Be aware that this is subject to change after initial problem completion
+     |--If you are solving for a problem ahead of the current one, stipulate as much
+  |--Define known information
+  |--Define desired information
+  |--Define working variables
+
+2. 
