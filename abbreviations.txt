@@ -30,6 +30,7 @@
 // #b2c     == #-Bit 2's Complement
 // Arg      == Argument
 // Alloc    == Allocate(d)
+// APST.NDP == AppSeshProtTrans.NetDatPhys (All People Should Try Not Drinking Pizzas)
 // Avg      == Average
 // B-1st    == Breadth-First
 // Bfr      == Buffer
@@ -37,6 +38,7 @@
 // BST      == Binary Search Tree
 // BT       == Binary Tree
 // Char     == Character
+// CIA      == Confidentiality-Integrity-Availability triad
 // Coeff    == Coefficient
 // Concat   == Concatenation
 // Curr     == Current
@@ -48,6 +50,7 @@
 // Dest     == Destination
 // deQ      == Dequeue
 // Dist     == Distance
+// DoS      == Denial-of-Service
 // DRY      == Don't Repeat Yourself
 // enQ      == Enqueue
 // EoF      == End of File
@@ -75,6 +78,7 @@
 // NaN      == Not a Number
 // NaV      == Not a Value
 // Obj      == Object
+// OSI(#)   == OSI Layer #
 // Param    == Parameter
 // PITA     == Pain In The Arse
 // Polynom  == Polynomial
