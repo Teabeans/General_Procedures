@@ -1,0 +1,24 @@
+Vocabulary:
+Repository
+Snapshot
+Delta
+History
+Parent
+Child
+Branch
+Checkout
+
+https://learngitbranching.js.org/
+hide goal
+show goal
+git commit
+git branch <arg1> - Where 'arg1' is the name of a feature branch
+git checkout <arg1> - Where 'arg1' is the name of the branch
+
+Lesson 1 - Git Commit
+- Commit to the master branch twice
+$ git commit
+$ git commit
+
+Lesson 2 - Branching in Git
+- Create a new branch called bugFix and switch to that branch
