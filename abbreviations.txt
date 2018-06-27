@@ -23,12 +23,16 @@
 // (-)      == (UML) Private
 // (#)      == (UML) Protected
 // (+)      == (UML) Public
+// 1::2     == Func/variable 1 in the 2 namespace
 // !        == Not
 // @        == At
+// #b1c     == #-Bit 1's Complement
 // #b2c     == #-Bit 2's Complement
 // Arg      == Argument
 // Alloc    == Allocate(d)
+// Avg      == Average
 // B-1st    == Breadth-First
+// Bfr      == Buffer
 // BH       == Binary Heap
 // BST      == Binary Search Tree
 // BT       == Binary Tree
@@ -37,12 +41,14 @@
 // Concat   == Concatenation
 // Curr     == Current
 // D-1st    == Depth-First
+// Dalloc   == Deallocate(d)
 // DB       == Database
 // Dbl      == Double
 // Desc     == Description
 // Dest     == Destination
 // deQ      == Dequeue
 // Dist     == Distance
+// DRY      == Don't Repeat Yourself
 // enQ      == Enqueue
 // EoF      == End of File
 // EoL      == End of Line
@@ -70,6 +76,7 @@
 // NaV      == Not a Value
 // Obj      == Object
 // Param    == Parameter
+// PITA     == Pain In The Arse
 // Polynom  == Polynomial
 // PosCond  == Postcondition
 // PreCond  == Precondition
@@ -90,14 +97,17 @@
 // Src      == Source
 // Str      == String
 // <T>      == "Of type T"
+// TCP      == Transmission Control Protocol
 // Term     == Terminus
 // Trav     == Traverse / Traversal
  // PreOrd  == Pre-Order
  // InOrd   == In-Order
  // PostOrd == Post-Order
 // TtB      == Top to Bottom
+// UDP      == User Datagram Protocol
 // Ur-      == Originator, foremost (ie. Ur-Node)
 // Val      == Value
 // Var      == Variable
 // Vtx      == Vertex
+// Wgt      == Weight
 //
